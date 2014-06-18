@@ -1,0 +1,62 @@
+html[data-useragent*='MSIE 10.0']{
+      nav{
+        ul{
+            margin: 0 10px;
+            padding: 10px 0;
+            list-style: none;
+            text-align: center;
+            display: block;
+            li{
+                width: 200px;
+                display: inline-block;
+                a{
+                    background: red;
+                }
+            }
+        }
+    }
+    ul.flickrbox{
+        display: block;
+        height: 100%;
+        text-align: center;
+        li{
+            display: inline-block;
+            position: relative;
+            margin: 1em;
+            img{
+                border: none;
+            }
+        }
+    }
+}
+html[data-useragent*='Firefox']{
+          nav{
+        ul{
+            margin: 0 10px;
+            padding: 10px 0;
+            list-style: none;
+            text-align: center;
+            display: block;
+            li{
+                width: 200px;
+                display: inline-block;
+                a{
+                    background: red;
+                }
+            }
+        }
+    }
+    ul.flickrbox{
+        display: block;
+        height: 100%;
+        text-align: center;
+        li{
+            display: inline-block;
+            position: relative;
+            margin: 1em;
+            img{
+                border: none;
+            }
+        }
+    }
+}
